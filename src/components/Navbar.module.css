@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+
+.appBar {
+    background-color: #1976d2; /* Example background color */
+  }
+  
+  .title {
+    flex-grow: 1;
+  }
+  
+  .titleLink {
+    text-decoration: none;
+    color: inherit; /* Inherit color from Typography */
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 1rem; /* Space between nav links */
+    margin-left: auto; /* Pushes the links to the right */
+  }
+  
+  .navLink {
+    text-decoration: none;
+  }
+  
+  .navButton {
+    font-size: 1rem; /* Adjust font size as needed */
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+  }
+  

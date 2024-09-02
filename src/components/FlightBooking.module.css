@@ -1,0 +1,104 @@
+/* Container styling */
+.container {
+    padding: 30px;
+    background-color: #ffffff; /* Background color for the container */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Heading styling */
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff; /* White text color for contrast */
+    background-color: #1976d2; /* Background color for the heading */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid #115293;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .title:hover {
+    color: #e3f2fd;
+    background-color: #115293;
+  }
+  
+  /* Form Control styling */
+  .formControl {
+    margin-bottom: 25px;
+  }
+  
+  .select {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .select:hover {
+    border-color: #1976d2;
+  }
+  
+  .selectInput,
+  .textField input {
+    padding: 12px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .selectInput:focus,
+  .textField input:focus {
+    background-color: #e8f0fe;
+    outline: none;
+  }
+  
+  .textField {
+    margin-top: 20px;
+  }
+  
+  /* Button styling */
+  .button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #1976d2;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #115293;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Form Helper Text styling */
+  .helperText {
+    color: #777;
+  }
+  
+  /* Radio Group and Checkbox Group styling */
+  .radioGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .checkboxGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
