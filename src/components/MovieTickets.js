@@ -3,6 +3,7 @@ import { Container, Typography, Grid, Card, CardContent, CardMedia, Button, Card
 import { Link } from 'react-router-dom';
 import './MovieTickets.css';
 
+
 // Full list of popular Indian movies with correct image path for Jawan
 const movies = [
   // Bollywood
